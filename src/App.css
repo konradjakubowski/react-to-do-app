@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Mina:400,700&subset=latin-ext');
+
+body {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Mina', sans-serif;
+    font-size: 20px;
+}
+
+.TodoApp {
+    background-image: url('https://image.ibb.co/bU8vLH/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+li {
+    cursor: pointer;
+    text-align: left;
+}
+
+li:hover {
+    color: #02308A;
+}
+
+h1 {
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+
+input {
+    background: rgba(255,255,255,0.1);
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    background: #02308A;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+input:focus{
+    outline: none;
+}
